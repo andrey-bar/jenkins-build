@@ -27,6 +27,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v2
         with:
-          context: ./jenkins
+          context: .
           push: true
           tags: jfrog.it-academy.by/public/jenkins-ci:andrey-bar
